@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+<body>
+header{
+height:90px;
+width:100%;
+text-style:oblique;
+text-shadow:2px 2px 2px black;
+font-size:60px;
+color:purple;
+padding-top:8px;}
+
+nav{
+      background-color: #0000ff;
+	   color:  #fff;
+border-radius:20px;
+margin-top:5px;
+padding-left:70px;
+}
+a:link, a:visited {
+                  color:#fff;
+	   padding:  14px  25px;
+	   text-align: center;
+	   text-decoration: none;
+	    display: inline-block;
+	  
+              	
+	margin-right:50px;
+             }
+ a:hover, a:active {
+		background-color: #ff1493;
+		
+               }
+
+
+ {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #ffa0cb;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 30%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<header><center><img src="images\image25.png" alt="Celebrating 150 years of Mahatma Gandhi" width="130px" height="70px" id="icon"><img src="images\image23.jpg" alt="ISRO_Logo" width="70px" height="70px" id="icon"> ISRO <img src="images\image24.jpg" alt="Satyameva Jayate" width="70px" height="70px" id="icon"> </center></header>
+<center><b><h3>A Government of India Initiative - Department of Space , Indian Space Research Organisation</h3></center>
+
+<nav>
+<a href="index.html"> HOME </a> 
+<a href="about.html">ABOUT US </a> 
+<a href="gallery.html">GALLERY </a>
+<a href="ISRO_Table.html">UPCOMING MISSIONS</a>
+<a href="contact.html">  CONTACT  US </a>
+<a href="Register form.html">LOGIN</a>
+</nav>
+
+<h2><center>Login Form</h2></center>
+
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="C:/Users/lenovo/Desktop/C-Lab%20Project/images/image23.jpg" alt="ISRO_Logo" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
